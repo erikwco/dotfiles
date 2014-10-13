@@ -91,7 +91,7 @@ if !exists( "*RubyEndToken" )
 endif
 
 imap <buffer> <CR> <C-R>=RubyEndToken()<CR>
-
+silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 
 "" Special behaviors
 cmap w!! w !sudo tee % >/de
