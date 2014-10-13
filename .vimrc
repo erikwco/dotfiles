@@ -20,6 +20,7 @@ set visualbell
 set noerrorbells
 set nobackup
 set noswapfile
+set incsearch
 
 "" Quick edit for vimrc
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
@@ -58,7 +59,7 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
 "" file configuration
-autocmd filetype html, xml set listchars-=tab:>.
+""autocmd filetype html, xml set listchars-=tab:>.
 
 
 "" set Keyboards
