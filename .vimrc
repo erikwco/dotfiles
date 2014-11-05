@@ -48,8 +48,9 @@ set ignorecase
 set smartcase
 set smarttab
 set nowrap
-set list
-set listchars=tab:>.,trail:.,extends:#,nbsp:.
+set nolist
+"" set listchars=tab:>.,trail:.,extends:#,nbsp:.
+"" set listchars=trail:.,extends:#,nbsp:.
 "set cursorline
 "set colorcolumn=80
 
