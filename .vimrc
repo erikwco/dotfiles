@@ -63,9 +63,9 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 ""autocmd filetype html, xml set listchars-=tab:>.
 
 "" Color Scheme
-"set background=dark
+set background=dark
 colorscheme solarized
-""let g:solarized_termcolors=256
+"let g:solarized_termcolors=256
 if has('gui_running')
   set background=light
 else
