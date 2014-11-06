@@ -63,15 +63,14 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 ""autocmd filetype html, xml set listchars-=tab:>.
 
 "" Color Scheme
-set background=dark
-colorscheme solarized
-"let g:solarized_termcolors=256
-if has('gui_running')
+set background=light
+let hour=strftime("%H")
+if hour >=6 && hour < 18
   set background=light
 else
 	set background=dark
-endif
-
+end
+colorscheme solarized
 
 
 "" set Keyboards
