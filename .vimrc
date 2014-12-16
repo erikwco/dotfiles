@@ -70,6 +70,9 @@ if hour >=6 && hour < 18
 else
 	set background=dark
 end
+set term=screen-256color
+set t_Co=256
+set background=dark
 colorscheme solarized
 
 
