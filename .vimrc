@@ -16,7 +16,7 @@ set showmatch
 set hidden
 let mapleader=','
 set title
-set visualbell
+set novisualbell
 set noerrorbells
 set nobackup
 set noswapfile
@@ -38,6 +38,7 @@ set fileencoding=utf-8
 
 "" Tabs
 set ts=2 sts=2 sw=2 expandtab
+set ffs=unix,dos
 
 "" Formatting
 set nolist
@@ -111,13 +112,6 @@ silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 "" Special behaviors
 cmap w!! w !sudo tee % >/de
 nmap <F2> :NERDTreeToggle <CR>
-
-
-
-
-
-
-
 
 
 
